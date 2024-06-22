@@ -2,7 +2,7 @@
 自身のポートフォリオサイトです。レスポンシブ対応となっております。<br>
 HTML/SCSS/jQueryを使用し、デザインから実装まで全て行いました。<br>
 リンクはこちら：<br>
-https://akaneknh.github.io/AkaneKanoJP/
+[https://akaneknh.github.io/AkaneKanoJP/](https://akaneknh.github.io/AkaneKanoJp/)
 
 <img src="./img/myportfolio.jpg" style="width: 250px">
 英語版ですがワイヤーフレームはこちらから確認できます:<br>
