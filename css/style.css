@@ -856,7 +856,7 @@ section:nth-child(2n) {
   .design-skill,
   .webdev-skill {
     width: 100%;
-    height: 100%;
+    height: 400px;
     justify-content: flex-start;
   }
   .webdev-skill-content,
@@ -1220,7 +1220,7 @@ section:nth-child(2n) {
   }
   .reason-card {
     width: 320px;
-    height: 100%;
+    height: 480px;
   }
   .other-side {
     display: flex;
