@@ -1,7 +1,7 @@
 # AkaneKano
 自身のポートフォリオサイトです。レスポンシブ対応となっております。
 HTML/SCSS/jQueryを使用し、デザインから実装まで全て行いました。
-　リンクはこちら：
+<p>リンクはこちら：</p>
 https://akaneknh.github.io/AkaneKanoJP/
 
 <img src="./img/myportfolio.jpg" style="width: 250px">
