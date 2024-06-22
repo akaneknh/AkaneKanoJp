@@ -1,0 +1,161 @@
+@mixin mobileFont {
+  h1 {
+    color: $h1Cm;
+    font-size: $h1FSm;
+    font-weight: $h1FWm;
+    letter-spacing: $h1LSm;
+    line-height: $h1Lhm;
+    font-family: $enFont;
+  }
+
+  h2 {
+    color: $h2Cm;
+    font-size: $h2FSm;
+    font-weight: $h2FWm;
+    letter-spacing: $h2LSm;
+    font-family: $enFont;
+    text-transform: capitalize;
+  }
+
+  h3 {
+    color: $h3Cm;
+    font-size: $h3FSm;
+    font-weight: $h3FWm;
+    letter-spacing: $h3LSm;
+    text-transform: capitalize;
+  }
+
+  h4 {
+    color: $h4Cm;
+    font-size: $h4FSm;
+    font-weight: $h4FWm;
+    letter-spacing: $h4LSm;
+    
+    
+  }
+
+  p {
+    color: $pCm;
+    font-size: $pFSm;
+    letter-spacing: $pLSm;
+    line-height: $pLhm;
+   
+  }
+
+  .sub-title {
+    color: $subTitleCm;
+    font-size: $subTitleFSm;
+    font-weight:$subTitleFWm;
+    letter-spacing: $subTitleLSm;
+    text-transform: uppercase;
+  }
+
+  .btn-text-card { 
+    color: $prColor;
+  }
+
+}
+
+
+@mixin tabletFont {
+  h1 {
+    color: $h1Ct;
+    font-size: $h1FSt;
+    font-weight: $h1FWt;
+    letter-spacing: $h1LSt;
+    line-height: $h1Lht;
+    font-family: $enFont;
+  }
+
+  h2 {
+    color: $h2Ct;
+    font-size: $h2FSt;
+    font-weight: $h2FWt;
+    letter-spacing: $h2LSt;
+    font-family: $enFont;
+  }
+
+  h3 {
+    color: $h3Ct;
+    font-size: $h3FSt;
+    font-weight: $h3FWt;
+    letter-spacing: $h3LSt;
+  }
+
+  h4 {
+    color: $h4Ct;
+    font-size: $h4FSt;
+    font-weight: $h4FWt;
+    letter-spacing: $h4LSt;
+  }
+
+  p {
+    color: $pCt;
+    font-size: $pFSt;
+    letter-spacing: $pLSt;
+    line-height: $pLht;
+  }
+
+  .sub-title {
+    color: $subTitleCt;
+    font-size: $subTitleFSt;
+    font-weight:$subTitleFWt;
+    letter-spacing: $subTitleLSt;
+  }
+
+  .btn-text-card {
+    color: $prColor;
+  }
+}
+
+@mixin desktopFont {
+
+  h1 {
+    color: $h1Cd;
+    font-size: $h1FSd;
+    font-weight: $h1FWd;
+    letter-spacing: $h1LSd;
+    line-height: $h1Lhd;
+    font-family: $enFont;
+  }
+
+  h2 {
+    color: $h2Cd;
+    font-size: $h2FSd;
+    font-weight: $h2FWd;
+    letter-spacing: $h2LSd;
+    font-family: $enFont;
+  }
+
+  h3 {
+    color: $h3Cd;
+    font-size: $h3FSd;
+    font-weight: $h3FWd;
+    letter-spacing: $h3LSd;
+  }
+
+  h4 {
+    color: $h4Cd;
+    font-size: $h4FSd;
+    font-weight: $h4FWd;
+    letter-spacing: $h4LSd;
+  }
+
+  p {
+    color: $pCd;
+    font-size: $pFSd;
+    letter-spacing: $pLSd;
+    line-height: $pLhd;
+  }
+
+  .sub-title {
+    color: $subTitleCd;
+    font-size: $subTitleFSd;
+    font-weight:$subTitleFWd;
+    letter-spacing: $subTitleLSd;
+  }
+
+  .btn-text-card {
+    color: $prColor;
+  }
+}

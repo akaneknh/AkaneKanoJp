@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: $defaultFont;
+  background-color: #fff;
+  line-height: 2em;
+}
+
+
+section:nth-child(1n) {
+  background-color: #fff;
+}
+
+section:nth-child(2n) {
+  background: $bgColor;
+}
+
+
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+// JS
+.design-skill, .webdev-skill, .other-side-content, .work, .reason-card, .experience-card {
+transform: translateY(30px);
+opacity: 0;
+visibility: hidden;
+transition: transform 1s, opacity 1s, visibility 1s;
+}
+
+.is-fadein {
+transform: translateX(0);
+opacity: 1;
+visibility: visible;
+}
+
+
+/*========= typing ===============*/
+
+.TextTyping span {
+  display: none;
+}
+
+/*cursor*/
+.TextTyping::after {
+  content: "|";
+  animation: typinganime 1.0s ease infinite;
+}
+
+@keyframes typinganime{
+  from{opacity:0}
+  to{opacity:1}
+}
+
